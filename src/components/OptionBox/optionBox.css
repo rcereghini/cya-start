@@ -1,0 +1,6 @@
+.option-box{
+    border: 5px solid black;
+    margin: 5px;
+    display:flex;
+    flex-direction: column;
+}
