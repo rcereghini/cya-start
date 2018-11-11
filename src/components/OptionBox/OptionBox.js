@@ -5,7 +5,7 @@ import "./optionBox.css";
 const OptionBox = (props) => {
   return (
     <div className="option-box">
-        <OptionButton onClick={onOptionPress(0)} option = {props.options[0]}/>
+        <OptionButton option = {props.options[0]}/>
         <OptionButton option = {props.options[1]}/>
         <OptionButton option = {props.options[2]}/>
     </div>
